@@ -1,0 +1,66 @@
+/* Reset some defaults */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Body */
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  transition: background-color 0.5s ease-in-out;
+}
+
+/* Title */
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+  color: #333;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.15);
+}
+
+/* Buttons */
+button {
+  height: 40px;
+  width: 100px;
+  border: none;
+  border-radius: 8px;
+  margin: 10px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+/* Hover Effect */
+button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Specific Colors */
+button:nth-child(2) {
+  background-color: red;
+  color: white;
+}
+
+button:nth-child(3) {
+  background-color: blue;
+  color: white;
+}
+
+button:nth-child(4) {
+  background-color: purple;
+  color: white;
+}
+
+button:nth-child(5) {
+  background-color: #fff;
+  color: #000;
+  border: 1px solid #ccc;
+}
